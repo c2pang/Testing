@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>新加坡冯氏总会(W3.CSS)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</header>
+
+<body>
+
+<!-- div class="w3-top" style="margin-left:160px;">
+  <div class="w3-bar w3-light-grey" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-home"></i></a>
+    <div class="w3-right w3-hide-small">
+      <a href="#" class="w3-bar-item w3-button">Link 1</a>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">Dropdown</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">Link 1</a>
+          <a href="#" class="w3-bar-item w3-button">Link 2</a>
+          <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div> 
+-->
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top" style="margin-left:160px;">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#主页" class="w3-bar-item w3-button w3-wide"><i class="fa fa-home"></i></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">Dropdown</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">Link 1</a>
+          <a href="#" class="w3-bar-item w3-button">Link 2</a>
+          <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        </div>
+      </div>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:160px;">
+  <a href="#主页" class="w3-bar-item w3-button w3-green"><i class="fa fa-home"></i> 主页</a>
+  <a href="#布告栏" class="w3-bar-item w3-button">布告栏 <span class="w3-tag w3-red w3-right w3-margin-right">3</span></a>
+  <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
+  其他 <i class="fa fa-caret-down"></i>
+  </button>
+  <div id="demoAcc" class="w3-hide w3-white w3-card">
+  <a href="#" class="w3-bar-item w3-button">常用链接</a>
+  </div>
+</div>
+
+<section id="主页">
+<div class="w3-container w3-border w3-border-blue" style="margin-left:160px;">
+  <br><br>
+  <h2>新加坡冯氏总会</h2>
+  <p>1950年成立</p>
+</div>
+</section>
+
+<section id="布告栏">
+<div class="w3-container w3-border w3-border-blue" style="margin-left:160px;">
+  <h2>布告栏</h2>
+  <p>共3布告</p>
+  <div class="w3-penel w3-card w3-yellow">
+    <h3>卡拉OK</h3>
+    <p>下个卡拉OK定在2025年4月25日星期五晚上6点半至9点半</p>
+    <p>以下是<a href="2025-02-28.pdf">2月28日举办的卡拉OK</a></p>
+    <iframe src="2025-02-28.jpg" width=100% height=1131px></iframe>
+     <div class="date">Posted on: 18 Apr 2025</div>
+  </div>
+  <div class="w3-penel w3-card w3-yellow">
+    <h3>理事开会</h3>
+    <p>理事会定在2025年5月26日晚上7点开会</p>
+    <div class="date">Posted on: 25 Mar 2025</div>
+  </div>
+  <div class="w3-penel w3-card w3-yellow">
+    <h3>端午节+糕点制作</h3>
+    <p>冯氏总会定在2025年6月8日中午</p>
+    <div class="date">Posted on: 02 Mar 2025</div>
+  </div>
+</div>
+
+<script>
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-green";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
