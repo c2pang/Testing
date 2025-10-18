@@ -1,9 +1,13 @@
 # Practicing W3.CSS
 
-[W3.CSS Tutorial][2]\
-Currently looking into Navigation Bars example [W3.CSS Navigation Bars][3]
+Currently looking into Navigation Bars example
 
-[How to Create a Website using HTML and CSS][1]
+- [W3.CSS Navigation Bars][3]
+- [How to Create a Website using HTML and CSS][1]
+
+# References
+
+[W3.CSS Tutorial][2]
 
 [1]: https://www.browserstack.com/guide/build-a-website-using-html-css
 [2]: https://www.w3schools.com/w3css/default.asp
