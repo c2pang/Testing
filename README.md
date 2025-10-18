@@ -12,7 +12,8 @@ Currently looking into Navigation Bars example
 1. [Git Branching Explained][5]
 
     1.1. Graphical view
-            git log --oneline --decorate --graph --all
+
+    1.1. git log --oneline --decorate --graph --all
 
 1. [https://c2pang.github.io/Testing/fongclan.html][4]
 
