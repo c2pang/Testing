@@ -12,9 +12,8 @@ See [W3.CSS Tutorial][2], here are some useful tips and useful links:
 
 # References
 1. [Git Branching Explained][5]
-    1. Graphical view
-    1. git log --oneline --decorate --graph --all
-1. [https://c2pang.github.io/Testing/fongclan.html][4]
+    1. Graphical branch view $ git log --oneline --decorate --graph --all
+- [https://c2pang.github.io/Testing/fongclan.html][4]
 
 [1]: https://www.browserstack.com/guide/build-a-website-using-html-css
 [2]: https://www.w3schools.com/w3css/default.asp
